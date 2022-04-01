@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    #resim{
+      display: flex;
+      justify-content: center;
+      border: 1px solid black;
+    }
+    .search{
+      display: flex;
+      justify-content: center;
+      background-color:#ccc;
+      flex-direction: column;
+      
+    }
+    .yazi{
+      display: flex;
+      justify-content: center;
+
+    }
+    button{
+      justify-content: center;
+      align-items: center;
+      width: 20%;
+      flex-direction: row;
+    }
+    .footer{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      border: 1px solid black;
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <div id="resim">
+    <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="">
+  </div>
+
+  <div class="search">
+    <p class="yazi">Search the using Google!</p>
+
+    <input style="width: 40%; align-self:center" type="search">
+    <div  style="flex-direction: row;align-self: center; width: 50%; justify-content:center ;display: flex;">
+      <button>Google Search</button>
+      <button>I'm feeling lucky</button>
+    </div>
+
+  </div>
+  <div class="footer">
+    <div style="width: 33%; text-align: center; background-color: darkolivegreen; align-items: center; padding-top: 15px;">
+       Special Searches <br>
+        <a href="#">Stanford Search</a><br>
+        <a href="#">Linux Search</a>
+    </div>
+    <div style="width: 33%;text-align: center; background: forestgreen;">
+      <a href="#">Help!</a> <br>
+      <a href="#">About Google!</a><br>
+      <a href="#">Company Info</a> <br>
+      <a href="#">Google! Logos</a> 
+      
+      
+    </div>
+    <div style="width: 34%;border: 1px solid black; text-align: center; background: lawngreen;">
+      <p>Get Google! <br>update monthly:</p>
+      <input type="email" placeholder="your e-mail">
+    </div>
+
+  </div>
+
+  <p style="align-self: center; text-align: center;" >Copyright 1998 Google Inc.</p>
+
+  
+</body>
+</html>
