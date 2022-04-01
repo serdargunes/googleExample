@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #resim {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .search {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+
+        .yazi {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        button {
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            flex-direction: row;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <img style="width: 40px; height: 40px;" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""><br>
+        <i class="material-icons">cloud</i><br>
+        <a href="#">Images</a><br>
+        <a href="#">gmail</a>
+    </div>
+    <div id="resim">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+    </div>
+
+    <div class="search">
+        <p class="yazi">Search the using Google!</p>
+        <div
+            style="flex-direction: row; display: flex; align-items: center; justify-content: center; align-self: center; border: 1px solid #ccc; width: 20%;">
+            <i class="material-icons">cloud</i>
+            <input style="width: 80%; align-self:center" type="search">
+        </div>
+        <div style="flex-direction: row;align-self: center; width: 50%; justify-content:center ;display: flex;">
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+
+        </div>
+
+    </div>
+
+    <div style="flex-direction: row;display: flex; border: 1px solid black; background: #ccc; position: absolute;bottom: 0px; height: 50px; width: 99%;">
+        <div style="padding-top: 10px;width: 90%;">
+            <a href="#">Okunmuyor</a>
+            <a href="#">Business</a>
+            <a href="#">About</a>
+            <a href="#">How Search Works</a>
+        </div>
+        <div style="text-align:right; padding-top:10px ">
+            <a href="#">Privacy</a>
+            <a href="#">Tems</a>
+            <a href="#">Settings</a>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
